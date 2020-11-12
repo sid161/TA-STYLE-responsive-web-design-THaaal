@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 2rem;
+}
+.header{
+    background-color:rgb(34,41,70);
+    padding: 10px 0;
+    text-align: center;
+}
+.header a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul li{
+    text-decoration: none;
+}
+
+.full-width{
+    width: 100%;
+   object-fit: contain;
+}
+.padding{
+    padding: 30px;
+}
+h1{
+    font-size: 2.5rem;
+    color: green;
+    margin: 1rem 0;
+}
+.art1-heading{
+    color: black;
+}
+p{
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(55,182,103);
+    padding: 0.75rem 2rem;
+    color: white;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2.4rem;
+    color: blue;
+    text-align: center;
+}
+.article1{
+    background-color: rgb(233,236,252);
+}
+.blog-item{
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: blue;
+    padding: 3rem 0;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.header li{
+    margin-top: 0.75rem;
+}
+
+@media screen and (min-width:768px){
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    html{
+        font-size: 16px;
+    }
+    .item-center{
+        align-items: center;
+    }
+    .flex-48{
+        flex: 0 1 48%;
+    }
+    .flex-30{
+        flex: 0 1 30%;
+    }
+    .header li{
+        margin-left: 2rem;
+        margin-top: 0;
+    }
+}
+
